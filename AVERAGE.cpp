@@ -3,6 +3,9 @@ using namespace std;
 const int maxn = 10010;
 int arr[maxn];
 int main(int argc, char const *argv[]) {
+#ifdef LOCAL_TESTING
+	freopen("in", "r", stdin);
+#endif
 	int n; cin>>n; 
 	for(int i=0; i<n; i++) 
 		cin>>arr[i];
